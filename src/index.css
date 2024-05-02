@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("./assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Courier New" !important;
+}
